@@ -31,11 +31,6 @@ input {
   display: none;
 }
 
-img {
-  width: 800px;
-  height: 500px;
-}
-
 .manual-btn {
   border: 2px solid #fff;
 
@@ -55,4 +50,17 @@ img {
 
 .slides {
   display: flex;
+  width: 400%;
+  height: 100%;
 }
+
+.slide {
+  width: 25%;
+  transition: .5s;
+}
+
+.slide img {
+  width: 800px;
+  height: 500px;
+}
+
